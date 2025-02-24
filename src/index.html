@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body >
+<div class="shadow-lg">
+  
+
+  <div class="w-full" id="a">
+    <!-- Accordion Item 2 -->
+    <div class="toggle-class border-b border-slate-200 bg-[#f7f4f4]">
+      <button onclick="toggleAccordion(2)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+          </div>
+          <span id="icon-2" class="text-slate-800 transition-transform duration-300 ">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2">
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+              </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">3</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6 ">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+            <div class="shadow-lg">
+                <div class="p-3 w-full  bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                        
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                          
+                      
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+            
+
+
+
+
+
+
+          </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 3 -->
+    <div class="toggle-class border-b border-slate-200">
+      <button onclick="toggleAccordion(3)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-red-600">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+          </div>
+          <span id="icon-3" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2">
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+          </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">4</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+              
+            
+
+
+            <div class="shadow-lg">
+                <div class="p-3 w-full  bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                      
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                      
+                          <!-- Dropdown Menu -->
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+
+
+
+
+
+
+          </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 4 -->
+    <div class="toggle-class border-b border-slate-200 bg-[#f7f4f4]">
+      <button onclick="toggleAccordion(4)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-green-600">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+          </div>
+          <span id="icon-4" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2">
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+          </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">5</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+
+
+
+
+            <div class="shadow-lg">
+                <div class="p-3 w-full  bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                      
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                      
+                          <!-- Dropdown Menu -->
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 5 -->
+    <div class="toggle-class border-b border-slate-200">
+      <button onclick="toggleAccordion(5)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-red-600">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+          </div>
+          <span id="icon-5" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2">
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+              </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">6</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+
+
+
+            <div class="shadow-lg">
+                <div class="p-3 w-full bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                      
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                      
+                          <!-- Dropdown Menu -->
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- Accordion Item 6 -->
+    <div class="toggle-class border-b border-slate-200 bg-[#f7f4f4]">
+      <button onclick="toggleAccordion(6)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-green-600">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>  
+          </div>
+          <span id="icon-6" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2" >
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+              </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">7</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+
+
+
+
+
+
+            <div class="shadow-lg">
+                <div class="p-3 w-full bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                    
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                      
+                          <!-- Dropdown Menu -->
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Item 7 -->
+    <div class="toggle-class border-b border-slate-200">
+      <button onclick="toggleAccordion(7)" class="w-full flex items-center justify-between py-3 text-slate-800">
+          <div class="flex items-center gap-1">
+              <span class="text-lg font-semibold pr-6">امیر حسین جهانگیرزاده</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-red-600">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg>
+          </div>
+          <span id="icon-7" class="text-slate-800 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4 ml-2">
+                  <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+          </svg>
+          </span>
+          <div class="absolute mt-[56px]"><span class="pr-2">8</span></div>
+      </button>
+      <div class="text-sm text-slate-600 -mt-2 mb-4"> 
+          <span class="block pr-6">کلاس: یازدهم</span>
+          <span class="block pr-6">وضعیت: غایب</span>
+      </div>
+      
+      <div id="content-7" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+          <div class="pb-5 text-sm text-slate-500">
+
+
+
+
+
+
+
+            <div class="shadow-lg">
+                <div class="p-3 w-full bg-[#f7f4f4] rounded-t-2xl">
+                    <div class="flex items-center m-auto p-4 rounded-lg">
+                        <img src="./img/1.jpg" alt="Profile Image" class="w-[50px] h-[50px] rounded-full ml-2">
+                        <div class="md:ml-4">
+                            <h2 class="m-0 text-lg font-semibold">جهانگیرزاده</h2>
+                            <p class="mt-1 text-sm text-gray-500 font-semibold">امیر حسین جهانگیرزاده</p>
+                        </div>
+                        <button id="a2" class="bg-blue-500 text-white border-none px-3 py-1 rounded cursor-pointer  mt-2 ">افزودن عضو</button>
+                      
+                    </div>
+                
+                    <div class="flex  items-center justify-between m-auto p-4 " style="gap: 6px;">
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ اول</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ دوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ سوم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">زنگ چهارم</button>
+                      <button id="a4" class="bg-gray-200 text-black  m-1" onclick="changeColor(this)">همه زنگ ها</button>
+                    </div>
+                
+                    <div class="flex items-center justify-between m-auto p-2">
+                        <h4 class="mb-2">وضعیت حضور:</h4>
+                        <div class="relative">
+                          <button id="a1" class="bg-green-500 text-green-100 border-none px-3 py-1 rounded cursor-pointer flex items-center" onclick="toggleDropdown()">
+                              حاضر
+                              <span id="icon-1" class="text-green-400-800 transition-transform duration-300">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-4 h-4">
+                                      <path fill-rule="evenodd" d="M11.78 9.78a.75.75 0 0 1-1.06 0L8 7.06 5.28 9.78a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l3.25 3.25a.75.75 0 0 1 0 1.06Z" clip-rule="evenodd" />
+                                  </svg>
+                              </span>
+                          </button>
+                      
+                          <!-- Dropdown Menu -->
+                          <div id="dropdown" class="absolute hidden bg-white shadow-lg rounded mt-1">
+                              <div class="py-1">
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-green-100" onclick="selectOption('حاضر', 'green')">حاضر</button>
+                                  <button class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-red-100" onclick="selectOption('غایب', 'red')">غایب</button>
+                              </div>
+                          </div>
+                        </div>
+                        
+                        <h4>تاریخ:</h4>
+                        <h4>03/9/11</h4>
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
