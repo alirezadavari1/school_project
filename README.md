@@ -43,10 +43,7 @@
 
 ## 🖼️ اسکرین‌شات
 
-<div align="center">
-  <img src="https://via.placeholder.com/400x250/2d3748/ffffff?text=Screenshot+1" alt="Screenshot 1" width="45%" style="border-radius: 10px; margin: 5px; border: 1px solid #444;">
-  <img src="https://via.placeholder.com/400x250/4a5568/ffffff?text=Screenshot+2" alt="Screenshot 2" width="45%" style="border-radius: 10px; margin: 5px; border: 1px solid #444;">
-</div>
+
 
 ## 🚀 مشاهده آنلاین
 
