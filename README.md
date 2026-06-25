@@ -9,21 +9,6 @@
 
 <br>
 
-<div align="center">
-  <h1>🏫 پروژه مدرسه</h1>
-  <p><strong>یک پروژه وب آموزشی و نمایشی</strong></p>
-  <p>طراحی شده با <strong>HTML، CSS، جاوااسکریپت</strong> و فریم‌ورک <strong>Tailwind CSS</strong></p>
-  <br>
-  <a href="#-مشاهده-آنلاین">مشاهده آنلاین</a>
-  ·
-  <a href="#-اسکرین‌شات">اسکرین‌شات</a>
-  ·
-  <a href="#-نحوه-اجرا">نحوه اجرا</a>
-  ·
-  <a href="#-ساختار-پروژه">ساختار پروژه</a>
-</div>
-
-<br>
 
 <div align="center">
   <img src="https://via.placeholder.com/800x400/1a202c/ffffff?text=School+Project+Demo" alt="Project Screenshot" width="80%" style="border-radius: 20px; box-shadow: 0 20px 30px -10px rgba(0,0,0,0.7); border: 1px solid #333;">
@@ -60,5 +45,7 @@
 
 **مراحل:**
 1.  ریپازیتوری را کلون کن:
+    <br>
     ```bash
+    
     git clone https://github.com/alirezadavari1/school_project.git
