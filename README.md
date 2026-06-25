@@ -10,8 +10,7 @@
 <br>
 
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/1a202c/ffffff?text=School+Project+Demo" alt="Project Screenshot" width="80%" style="border-radius: 20px; box-shadow: 0 20px 30px -10px rgba(0,0,0,0.7); border: 1px solid #333;">
+
   <!-- لینک اسکرین‌شات واقعی را جایگزین کنید -->
 </div>
 
