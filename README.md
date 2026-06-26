@@ -48,6 +48,6 @@
 
 
     
-    ```bash
+
     
     git clone https://github.com/alirezadavari1/school_project.git
