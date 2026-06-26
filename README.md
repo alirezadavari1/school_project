@@ -43,8 +43,11 @@
 *   (اختیاری) Node.js و npm برای نصب وابستگی‌ها
 
 **مراحل:**
-1.  ریپازیتوری را کلون کن:
+ریپازیتوری را کلون کن:
     <br>
+
+
+    
     ```bash
     
     git clone https://github.com/alirezadavari1/school_project.git
