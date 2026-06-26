@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/github/stars/alirezadavari1/school_project?style=for-the-badge&color=yellow" alt="GitHub Stars">
   <img src="https://img.shields.io/github/forks/alirezadavari1/school_project?style=for-the-badge&color=blue" alt="GitHub Forks">
 </div>
-efef efefefefef
+
 <br>
 
 
